@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux'
 import './App.css'
 import Header from "./Header91.jsx";
-import Product from "./temp.jsx";
+import Product from "./Product91.jsx";
 
 import { clearAllItems } from './redux/slice';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
