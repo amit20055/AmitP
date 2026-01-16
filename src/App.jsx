@@ -1,24 +1,11 @@
-import { useDispatch } from 'react-redux'
-import './App.css'
-import Header from "./Header91.jsx";
-import Product from "./Product91.jsx";
+import ColorMixer from "./ColorMixerProject101";
 
-import { clearAllItems } from './redux/slice';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import CartList from './CartList';
 function Main91() {
-const dispatch=useDispatch();
+
   return (
     <>
-<BrowserRouter>
- <Header />
+    <ColorMixer/>
 
- <Routes>
-<Route path="/" element={ <Product />}></Route>
-<Route path="/cart" element={<CartList />}></Route>
-
- </Routes>
-</BrowserRouter>
     </>
   )
 }
